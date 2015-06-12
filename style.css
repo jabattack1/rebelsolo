@@ -36,10 +36,10 @@ body {
 }
 
 #logo {
-    height: 250px;
-    width: 460px;
+    height: 200px;
+    width: 420px;
     margin-left:580px;
-    margin-top:10px;
+    margin-top:40px;
     z-index: 1; position:absolute;
     /*outline-width: medium;
     outline-color: white;*/
