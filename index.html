@@ -148,5 +148,14 @@ SC.stream("/tracks/205700677", function(sound){
 <div id='video' class='animated SlideInDown'>
 </div> 
 
+ <script language="javascript">
+        function autoResizeDiv()
+        {
+            document.getElementById('main').style.height = window.innerHeight +'px';
+        }
+        window.onresize = autoResizeDiv;
+        autoResizeDiv();
+    </script>
+    
 </body>
 </html>
